@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2022-04-11
-img: thumbnail2.png
+img: thumbnail2
 alt: image-alt
 project-date: April 2022
 client: Academy
