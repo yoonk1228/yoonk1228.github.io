@@ -2,6 +2,7 @@
 layout: default
 modal-id: 4
 date: 2022-09-01
+videos: thumbnail4
 img: thumbnail4
 alt: image-alt
 project-date: September 2022
