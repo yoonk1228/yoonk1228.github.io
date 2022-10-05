@@ -15,14 +15,14 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            <img src="img/portDetail/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
             <ul class="list-inline item-details">
-              {% if post.client %}
+              {% if post.title %}
               <li>Client:
-                <strong>{{ post.client }}</strong>
+                <strong>{{ post.title }}</strong>
               </li>
               {% endif %}
               {% if post.project-date %}
@@ -30,9 +30,9 @@
                 <strong>{{ post.project-date }}</strong>
               </li>
               {% endif %}
-              {% if post.category %}
-              <li>Service:
-                <strong>{{ post.category }}</strong>
+              {% if post.client %}
+              <li>Client:
+                <strong>{{ post.Client }}</strong>
               </li>
               {% endif %}
             </ul>
