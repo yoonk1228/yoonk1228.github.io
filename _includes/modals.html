@@ -16,8 +16,8 @@
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
             {% if post.videos %}
-            <video muted autoplay loop>
-              <source width="900" height="650" src="vid/{{ post.videos }}.mp4" class="img-centered img-responsive" type="video/h.264">
+            <video width="900" height="650" muted autoplay loop>
+              <source src="img/vid/{{ post.videos }}.mp4" class="img-centered img-responsive" type="video/mp4">
               <strong>Your browser does not support the video tag.</strong>
             </video>
             {% else %}
