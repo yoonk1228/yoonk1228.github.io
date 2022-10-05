@@ -2,10 +2,10 @@
 layout: default
 modal-id: 3
 date: 2022-06-03
-img: project3.png
+img: thumbnail3.png
 alt: image-alt
 project-date: June 2022
 client: Academy
-title: 개키
+title: 개발자 키우기
 description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
 ---
