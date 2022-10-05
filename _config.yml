@@ -47,7 +47,7 @@ number:
   - line: 010 - 8616 - 1569
 
 # Credits content
-credits: '함께할 회사를 찾고 있습니다! <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+contacts: '함께할 회사를 찾고 있습니다! <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
