@@ -7,5 +7,5 @@ alt: image-alt
 project-date: April 2022
 client: Academy
 title: coin JohnVer
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: 가상화폐의 시세를 업비트 api에 websocket 연결을 통해 실시간으로 확인 하는 두번째 팀 프로젝트 입니다. 로그인/로그아웃에 카카오 api 사용함으로서 본격적으로 api 사용을 익혔던 프로젝트입니다. cors 에러를 해결하는데 많은 시간을 소요한 기억이 있었습니다. 프로젝트 전체적으로 메인페이지는 구상한 대로 제작했지만, 작업 수율을 조절하지 못해 커뮤니티 사이트처럼 만들고자 했던 게시판기능을 미완성하게 되었습니다.  
 ---
