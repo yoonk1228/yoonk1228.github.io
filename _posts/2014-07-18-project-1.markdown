@@ -2,6 +2,7 @@
 layout: default
 modal-id: 1
 date: 2022-02-01
+githubLink: https://github.com/yoonk1228/yoongyuyeju2
 img: thumbnail1
 alt: image-alt
 project-date: February 2022

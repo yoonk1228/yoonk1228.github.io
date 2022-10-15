@@ -2,6 +2,8 @@
 layout: default
 modal-id: 4
 date: 2022-09-01
+FrontLink: https://github.com/acentmeta/TEAM1-NFTunes-FE
+BackLink: https://github.com/acentmeta/TEAM1-NFTunes-BE
 videos: thumbnail4
 img: thumbnail4
 alt: image-alt
