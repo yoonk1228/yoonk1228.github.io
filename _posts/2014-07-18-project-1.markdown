@@ -3,6 +3,7 @@ layout: default
 modal-id: 1
 date: 2022-02-01
 githubLink: https://github.com/yoonk1228/yoongyuyeju2
+stacks: html5, css, express, axios, mysql2
 img: thumbnail1
 alt: image-alt
 project-date: February 2022

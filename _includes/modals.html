@@ -38,6 +38,11 @@
               <i class="fa-brands fa-github"></i> Back-github
             </a>
             {% endif %}
+            {% if post.stacks %}
+            <div>
+              주요스택: <strong>{{ post.stacks }}</strong>
+            </div>
+            {% endif %}
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
