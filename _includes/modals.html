@@ -23,21 +23,21 @@
             {% else %}
             <img src="img/portDetail/{{ post.img }}.png" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% endif %}
-            { % if post.githubLink % }
+            {% if post.githubLink %}
             <a href="{{ post.githubLink }}" class="btn btn-lg btn-outline">
               <i class="fa fa-download"></i> github
             </a>
-            { % endif % }
-            { % if post.FrontLink % }
+            {% endif %}
+            {% if post.FrontLink %}
             <a href="{{ post.FrontLink }}" class="btn btn-lg btn-outline">
               <i class="fa fa-download"></i> Front-github
             </a>
-            { % endif % }
-            { % if post.BackLink % }
+            {% endif %}
+            {% if post.BackLink %}
             <a href="{{ post.BackLink }}" class="btn btn-lg btn-outline">
               <i class="fa fa-download"></i> Back-github
             </a>
-            { % endif % }
+            {% endif %}
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
