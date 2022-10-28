@@ -355,7 +355,7 @@ section.success {
 
 .stack-explain > p {
     margin-left: 5px;
-    padding: 3px 0 0 3px;
+    padding: 3px 2px 2px 3px;
 }
 
 form .row:first-child .floating-label-form-group {
