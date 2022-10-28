@@ -359,6 +359,11 @@ section.success {
     font-size: 15px;
 }
 
+.stack-explain > p::before {
+    content:'-';
+    padding: 0 5px 0 5px;
+}
+
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
