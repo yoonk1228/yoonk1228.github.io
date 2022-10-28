@@ -349,6 +349,15 @@ section.success {
     color: #{{ site.color.primary }};
 }
 
+.stack-explain {
+    margin: 20px 0 20px;
+}
+
+.stack-explain > p {
+    margin-left: 5px;
+    padding: 3px 0 0 3px;
+}
+
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
