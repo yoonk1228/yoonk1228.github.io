@@ -353,13 +353,13 @@ section.success {
     margin: 20px 0 20px;
 }
 
-.stack-explain > p {
+.stack-explain p {
     margin-left: 5px;
     padding: 3px 2px 2px 3px;
     font-size: 15px;
 }
 
-.stack-explain > p::before {
+.stack-explain p::before {
     content:'-';
     padding: 0 5px 0 5px;
 }
