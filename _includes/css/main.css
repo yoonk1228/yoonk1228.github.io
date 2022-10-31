@@ -364,6 +364,10 @@ section.success {
     padding: 0 5px 0 5px;
 }
 
+.desc {
+    display: flex;
+}
+
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
