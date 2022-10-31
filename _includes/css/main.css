@@ -368,6 +368,10 @@ section.success {
     display: flex;
 }
 
+.useStack {
+    text-align: left;
+}
+
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
