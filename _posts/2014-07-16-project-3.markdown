@@ -6,7 +6,7 @@ githubLink: https://github.com/ash991213/Gaeki
 stacks: TypeScript, React, Next.js, redux-saga, styled-components, multer, AWS-EC2, nginx, sequelize
 img: thumbnail3
 alt: image-alt
-project-date: June 2022
+project-date: 2022.05 ~ 2022.06
 client: Academy
 title: 개발자 키우기
 description: 학원의 팀프로젝트 중 가장 독특한 경험을 했습니다. 클리커/방치 형식의 웹 게임을 만드는 것이 목표였으며, react native 와 expo 를 통해 플레이스토어에 출시까지 이뤘습니다. 캐릭터 및 배경 등 게임 소스를 비트맵으로 직접 제작한것이 특별한 경험이었습니다.
