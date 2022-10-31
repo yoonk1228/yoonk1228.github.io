@@ -359,7 +359,7 @@ section.success {
     font-size: 15px;
 }
 
-.stack-explain p::before {
+.dash::before {
     content:'-';
     padding: 0 5px 0 5px;
 }
