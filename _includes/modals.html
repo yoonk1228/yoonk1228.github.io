@@ -3,74 +3,69 @@
 <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
   aria-hidden="true">
   <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
-        </div>
-      </div>
-    </div>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="modal-body">
-            <h2>{{ post.title }}</h2>
-            <hr class="star-primary">
-            {% if post.videos %}
-            <video width="600" height="350" muted autoplay loop>
-              <source src="img/vid/{{ post.videos }}.mp4" class="img-centered img-responsive" type="video/mp4">
-              <strong>Your browser does not support the video tag.</strong>
-            </video>
-            {% else %}
-            <img src="img/portDetail/{{ post.img }}.png" class="img-responsive img-centered" alt="{{ post.alt }}">
-            {% endif %}
-            {% if post.githubLink %}
-            <a href="{{ post.githubLink }}" style="background-color: #95a5a6; color: white;" class="btn btn-default btn-lg btn-outline">
-              <i class="fa-brands fa-github"></i> github
-            </a>
-            {% endif %}
-            {% if post.FrontLink %}
-            <a href="{{ post.FrontLink }}" style="background-color: #95a5a6; color: white;" class="btn btn-default btn-lg btn-outline">
-              <i class="fa-brands fa-github"></i> Front-github
-            </a>
-            {% endif %}
-            {% if post.BackLink %}
-            <a href="{{ post.BackLink }}" style="background-color: #95a5a6; color: white;" class="btn btn-default btn-lg btn-outline">
-              <i class="fa-brands fa-github"></i> Back-github
-            </a>
-            {% endif %}
-            {% if post.stacks %}
-            <div style="margin: 20px 0 20px 0">
-              주요스택: <strong>{{ post.stacks }}</strong>
-            </div>
-            {% endif %}
-            {% if post.useStack %}
-            {{ post.useStack }}
-            {% endif %}
-            {% if post.description %}
-            <p class="description">{{ post.description }}</p>
-            {% endif %}
-            <ul class="list-inline item-details">
-              {% if post.title %}
-              <li>Title:
-                <strong>{{ post.title }}</strong>
-              </li>
-              {% endif %}
-              {% if post.project-date %}
-              <li>Date:
-                <strong>{{ post.project-date }}</strong>
-              </li>
-              {% endif %}
-              {% if post.client %}
-              <li>Client:
-                <strong>{{ post.client }}</strong>
-              </li>
-              {% endif %}
-            </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+      <h2>{{ post.title }}</h2>
+      <hr class="star-primary">
+      <div class="row modal-container-wrap">
+        <div class="left-container">
+          {% if post.videos %}
+          <video width="600" height="350" muted autoplay loop>
+            <source src="img/vid/{{ post.videos }}.mp4" class="img-centered img-responsive" type="video/mp4">
+            <strong>Your browser does not support the video tag.</strong>
+          </video>
+          {% else %}
+          <img src="img/portDetail/{{ post.img }}.png" class="img-responsive img-centered" alt="{{ post.alt }}">
+          {% endif %}
+          {% if post.githubLink %}
+          <a href="{{ post.githubLink }}" style="background-color: #95a5a6; color: white;" class="btn btn-default btn-lg btn-outline">
+            <i class="fa-brands fa-github"></i> github
+          </a>
+          {% endif %}
+          {% if post.FrontLink %}
+          <a href="{{ post.FrontLink }}" style="background-color: #95a5a6; color: white;" class="btn btn-default btn-lg btn-outline">
+            <i class="fa-brands fa-github"></i> Front-github
+          </a>
+          {% endif %}
+          {% if post.BackLink %}
+          <a href="{{ post.BackLink }}" style="background-color: #95a5a6; color: white;" class="btn btn-default btn-lg btn-outline">
+            <i class="fa-brands fa-github"></i> Back-github
+          </a>
+          {% endif %}
+          {% if post.stacks %}
+          <div style="margin: 20px 0 20px 0">
+            사용된 기술: <strong>{{ post.stacks }}</strong>
           </div>
+          {% endif %}
+        </div>
+        <div class="right-container">
+          {% if post.useStack %}
+          {{ post.useStack }}
+          {% endif %}
+          {% if post.description %}
+          <p class="description">{{ post.description }}</p>
+          {% endif %}
+          <ul class="list-inline item-details">
+            {% if post.title %}
+            <li>Title:
+              <strong>{{ post.title }}</strong>
+            </li>
+            {% endif %}
+            {% if post.project-date %}
+            <li>Date:
+              <strong>{{ post.project-date }}</strong>
+            </li>
+            {% endif %}
+            {% if post.client %}
+            <li>Client:
+              <strong>{{ post.client }}</strong>
+            </li>
+            {% endif %}
+          </ul>
         </div>
       </div>
+      <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+        Close</button>
+    </div>
     </div>
   </div>
 </div>
