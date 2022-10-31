@@ -43,6 +43,9 @@
               주요스택: <strong>{{ post.stacks }}</strong>
             </div>
             {% endif %}
+            {% if post.useStack %}
+            <p>{{ post.useStack }}</p>
+            {% endif %}
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
