@@ -372,8 +372,13 @@ section.success {
     text-align: left;
 }
 
+.useStack strong{
+    border-bottom: #0f7864 1px solid;
+}
+
 .stackDesc {
     padding-left: 5px;
+    font-size: 17px;
 }
 
 form .row:first-child .floating-label-form-group {
