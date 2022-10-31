@@ -372,6 +372,10 @@ section.success {
     text-align: left;
 }
 
+.stackDesc {
+    padding-left: 5px;
+}
+
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
