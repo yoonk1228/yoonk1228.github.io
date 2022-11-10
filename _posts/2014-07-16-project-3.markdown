@@ -3,11 +3,12 @@ layout: default
 modal-id: 3
 date: 2022-06-03
 githubLink: https://github.com/ash991213/Gaeki
-stacks: TypeScript, React, Next.js, redux-saga, styled-components, multer, AWS-EC2, nginx, sequelize
+stacks: TypeScript, React, Next.js, redux-saga, styled-components, multer, expo, AWS-EC2, nginx, sequelize
 img: thumbnail3
 alt: image-alt
-project-date: 2022.05 ~ 2022.06
+project-date: 1개월
 client: Academy
 title: 개발자 키우기
-description: 학원의 팀프로젝트 중 가장 독특한 경험을 했습니다. 클리커/방치 형식의 웹 게임을 만드는 것이 목표였으며, react native 와 expo 를 통해 플레이스토어에 출시까지 이뤘습니다. 캐릭터 및 배경 등 게임 소스를 비트맵으로 직접 제작한것이 특별한 경험이었습니다.
+useStack: <div class="useStack"><strong>TypeScript</strong><p class="stackDesc">Front 데이터에 타입을 명시해 디버그에 용이하게 사용.</p><strong>React</strong><p class="stackDesc">Front 프레임워크로 React 를 채택. 컴포넌트 LifeCycle 토대로 화면 개발.</p><strong>Next.js, redux-saga</strong><p class="stackDesc">Front 라우터 구성 및 Api 비동기요청을 위해 사용. </p><strong>AWS-EC2, Expo</strong><p class="stackDesc">Back, Front 서버를 각각 ec2에 배포, 앱 실행을 위해 expo 로 .abb 빌드  </p></div>
+description: 학원 동기들에게 좋은 반응을 얻어, 가장 보람찬 경험을 한 프로젝트.<br />클리커/방치 형식의 웹 게임을 만드는 것이 목표였으며, 플레이스토어에 출시까지 했습니다.<br />캐릭터 및 배경 등 게임 소스를 비트맵으로 직접 제작한것이 특별한 경험이었습니다.
 ---

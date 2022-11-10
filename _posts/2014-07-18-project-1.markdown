@@ -3,11 +3,12 @@ layout: default
 modal-id: 1
 date: 2022-02-01
 githubLink: https://github.com/yoonk1228/yoongyuyeju2
-stacks: html5, css, express, axios, mysql2
+stacks: html5, css, JavaScript, nodeJS, express, axios, mySQL
 img: thumbnail1
 alt: image-alt
-project-date: 2022.02 (1주)
+project-date: 1주 
 client: Academy
 title: CRUD
-description: 프로젝트의 목적은 간단한 CRUD 였으며,  JS 로 프론트를 구축하는 작업을 저에게 할당했습니다.  다만, 팀장으로서 역할 부재로 인해, 일정이 밀리게 되었고 좋은 퀄리티가 나오지 못했습니다.  nodeJS 로 front,back 을 구축해 작업했습니다.  로그인/로그아웃, 회원가입, 기능은 완벽했지만, 제 팀장 역할의 부재로 프로젝트 일정을 못 맞춰서, 게시판 기능이 부족한 상태로 마무리하게 되었습니다.
+useStack: <div class="useStack"><strong>node.JS, express</strong><p class="stackDesc">로그인/로그아웃, CRUD 의 db 전송을 담당하는 백서버 구축.</p><strong>mySQL</strong><p class="stackDesc">웹에서 받은 유저/글 정보를 저장하는 DB 구축.</p></div>
+description: 프로젝트의 목적은 게시판, 로그인 기능이 있는 CRUD 페이지입니다.<br/>첫 팀장을 맡고 부족한 점과 필요한 점을 배운 중요한 프로젝트였습니다.
 ---

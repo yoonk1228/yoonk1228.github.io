@@ -4,11 +4,12 @@ modal-id: 2
 date: 2022-04-11
 FrontLink: https://github.com/chi091/Team5-FRONT
 BackLink: https://github.com/chi091/Team5-BACK
-stacks: websocket, REST Api, jwt
+stacks: JavaScript, nodeJS, websocket, REST Api, jwt, mySQL
 img: thumbnail2
 alt: image-alt
-project-date: 2022.04 (2주)
+project-date: 2주
 client: Academy
 title: coin JohnVer
-description: 가상화폐의 시세를 업비트 api에 websocket 연결을 통해 실시간으로 확인 하는 두번째 팀 프로젝트 입니다. 로그인/로그아웃에 카카오 api 사용함으로서 본격적으로 api 사용을 익혔던 프로젝트입니다. cors 에러를 해결하는데 많은 시간을 소요한 기억이 있었습니다. 프로젝트 전체적으로 메인페이지는 구상한 대로 제작했지만, 작업 수율을 조절하지 못해 커뮤니티 사이트처럼 만들고자 했던 게시판기능을 미완성하게 되었습니다.  
+useStack: <div class="useStack"><strong>JavaScript</strong><p class="stackDesc">Front 게시판, 메인화면의 동적화면 구현</p><strong>Rest Api, WebSocket</strong><p class="stackDesc">업비트 시세조회 오픈 Api 를 사용, 메인화면에 전송.</p></div>
+description: 가상화폐의 시세를 실시간으로 확인 하는 두번째 팀 프로젝트 입니다.<br/>로그인/로그아웃에 카카오 api, 시제조회에 업비트 api 사용함으로서 본격적인 api 사용을 익혔던 프로젝트입니다.<br/>
 ---
