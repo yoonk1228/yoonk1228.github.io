@@ -17,8 +17,11 @@
           <img src="img/portDetail/{{ post.img }}.png" class="img-responsive img-centered" alt="{{ post.alt }}">
           {% endif %}
           {% if post.stacks %}
+          <div class="projectStack" style="margin: 20px 0 20px 0">
+            <strong>프로젝트에 사용된 스택</strong>
+          </div>
           <div style="margin: 20px 0 20px 0">
-            이 프로젝트에서 내가 맡은 부분 : <strong>{{ post.stacks }}</strong>
+            {{ post.stacks }}
           </div>
           {% endif %}
         </div>
