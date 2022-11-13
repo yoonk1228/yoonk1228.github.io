@@ -17,10 +17,10 @@
           <img src="img/portDetail/{{ post.img }}.png" class="img-responsive img-centered" alt="{{ post.alt }}">
           {% endif %}
           {% if post.stacks %}
-          <div class="projectStack" style="margin: 20px 0 20px 0">
+          <div class="projectStack letter05px" style="margin: 20px 0 20px 0">
             <strong>프로젝트에 사용된 스택</strong>
           </div>
-          <div style="margin: 20px 0 20px 0">
+          <div class="letter1px" style="margin: 20px 0 20px 0">
             {{ post.stacks }}
           </div>
           {% endif %}
@@ -30,7 +30,7 @@
           {{ post.useStack }}
           {% endif %}
           {% if post.description %}
-          <p class="description">{{ post.description }}</p>
+          <p class="description letter1px">{{ post.description }}</p>
           {% endif %}
           <ul class="list-inline item-details">
             {% if post.title %}

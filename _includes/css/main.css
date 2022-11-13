@@ -374,15 +374,21 @@ section.success {
 
 .useStack strong{
     border-bottom: #0f7864 1px solid;
+    letter-spacing: 0.5px;
 }
 
 .projectStack strong {
     border-bottom: #0f7864 1px solid;
 }
 
+.letter1px {
+    letter-spacing: 1px;
+}
+
 .stackDesc {
     padding-left: 5px;
     font-size: 17px;
+    letter-spacing: 1px;
 }
 
 .description {
