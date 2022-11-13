@@ -373,6 +373,10 @@ section.success {
     padding-right: 20px;
 }
 
+.left-container {
+    max-width: 50%;
+}
+
 .right-container {
     display: flex;
     flex-direction: column;
