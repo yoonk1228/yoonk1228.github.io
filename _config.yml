@@ -33,9 +33,9 @@ color:
 # Footer settings
 footer:
   copyright: yunjae Kim
-  number: Number
-  social: here's my gitHub
-  contact: Contact
+  number: yun's Number
+  social: and gitHub
+  contact: Contact Me!
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
