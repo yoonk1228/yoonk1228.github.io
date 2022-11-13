@@ -368,6 +368,17 @@ section.success {
     display: flex;
 }
 
+.emptySpace {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .useStack {
     text-align: left;
 }
