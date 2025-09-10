@@ -11,5 +11,5 @@ project-date: 2주
 client: Academy
 title: coin JohnVer
 useStack: <div class="useStack"><strong>JavaScript</strong><p class="stackDesc">Front 게시판, 메인화면의 동적화면 구현</p><strong>Rest Api, WebSocket</strong><p class="stackDesc">업비트 시세조회 오픈 Api 를 사용, 메인화면에 전송.</p></div>
-description: 가상화폐의 시세를 실시간으로 확인 하는 두번째 팀 프로젝트 입니다.<br/>로그인/로그아웃에 카카오 api, 시제조회에 업비트 api 사용함으로서 본격적인 api 사용을 익혔던 프로젝트입니다.<br/>
+description: 가상화폐의 시세를 실시간으로 확인 하는 두번째 팀 프로젝트 입니다.<br/>로그인/로그아웃에 카카오 api, 시제조회에 업비트 api 사용함으로서 본격적인 api 사용을 익혔던 프로젝트.<br/>
 ---

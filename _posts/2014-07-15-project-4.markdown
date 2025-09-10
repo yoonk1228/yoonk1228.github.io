@@ -12,6 +12,6 @@ project-date: 2개월
 client: MetaTrend
 title: NFTunes
 useStack: <div class="useStack"><strong>redux-tool-kit</strong><p class="stackDesc">metaMask 계정정보를 Store 에 담아 페이지 전역으로 State 관리.</p><strong>docker</strong><p class="stackDesc">mongoDB, 블록체인 private-net 을 이미지로 제작해 개발단계에서 사용.</p><strong>vercel</strong><p class="stackDesc">AWS 대신 serverless Function 을 채택함으로서 Front 빌드/배포 속도향상.</p></div>
-description: MetaTrend 에게 요구사항을 받아 제작한 기업협약 프로젝트입니다.<br />음원을 NFT 토큰으로 민팅해, 음원의 소유권을 토대로, 수수료가 적게되는 수익을 발생시키는 것이 주 목적인 프로젝트입니다.<br />음원 토큰의 민팅, 판매, 경매가 가능했고, 구독 여부에 따라, 음원의 재생이 가능하도록 만들었습니다. 
+description: MetaTrend 에게 요구사항을 받아 제작한 기업협약 프로젝트.<br />음원을 NFT 토큰으로 민팅해, 음원의 소유권을 토대로, 수수료가 적게되는 수익을 발생시키는 것이 주 목적인 프로젝트.<br />음원 토큰의 민팅, 판매, 경매가 가능했고, 구독 여부에 따라, 음원의 재생이 가능. 
 ---
 ````````````````

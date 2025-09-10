@@ -10,5 +10,5 @@ project-date: 1개월
 client: Academy
 title: 개발자 키우기
 useStack: <div class="useStack"><strong>TypeScript</strong><p class="stackDesc">Front 데이터에 타입을 명시해 디버그에 용이하게 사용.</p><strong>React</strong><p class="stackDesc">Front 프레임워크로 React 를 채택. 컴포넌트 LifeCycle 토대로 화면 개발.</p><strong>Next.js, redux-saga</strong><p class="stackDesc">Front 라우터 구성 및 Api 비동기요청을 위해 사용. </p><strong>AWS-EC2, Expo</strong><p class="stackDesc">Back, Front 서버를 각각 ec2에 배포, 앱 실행을 위해 expo 로 .abb 빌드  </p></div>
-description: 학원 동기들에게 좋은 반응을 얻어, 가장 보람찬 경험을 한 프로젝트.<br />클리커/방치 형식의 웹 게임을 만드는 것이 목표였으며, 플레이스토어에 출시까지 했습니다.<br />캐릭터 및 배경 등 게임 소스를 비트맵으로 직접 제작한것이 특별한 경험이었습니다.
+description: 학원 동기들에게 좋은 반응을 얻어, 가장 보람찬 경험을 한 프로젝트.<br />클리커/방치 형식의 웹 게임을 만드는 것이 목표였으며, 플레이스토어에 출시.<br />캐릭터 및 배경 등 게임 소스를 비트맵으로 직접 제작한것이 특별한 경험.
 ---
